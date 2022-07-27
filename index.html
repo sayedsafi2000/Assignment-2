@@ -29,16 +29,16 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Courses</a>
+                            <a class="nav-link" href="#courses">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ">Deals</a>
+                            <a class="nav-link" href="">Deals</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ">Success</a>
+                            <a class="nav-link " href="#Success">Success</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ">About</a>
+                            <a class="nav-link " href="#footer">About</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="register">
@@ -103,14 +103,12 @@
     <section>
         <div class="container d-flex flex-column align-items-center py-5 mx-auto">
             <h1 class="text-center">Discover Our Popular <br>Courses</h1>
-            <p class="text-center">It is a long established fact that a reader will be distracted by the readable <br>
-                content of a page
-                when
-                looking at its layout.</p>
+            <p class="text-center">Choose your preferred course now from the table below and become computer literate
+            </p>
         </div>
     </section>
     <section>
-        <div class="container text-center">
+        <div class="container text-center" id="courses">
             <div class="row g-4">
                 <div class="col-lg-6 col-md-12 d-flex flex-column flex-sm-column flex-md-row border rounded">
                     <div class="p-3 bg-light">
@@ -182,7 +180,23 @@
         </div>
     </section>
     <!-- Courses End  -->
+    <!-- explore Learning institute  -->
 
+    <section>
+        <div style="min-height: 80px;" class="container row bg-info py-5 px-5 my-5 align-items-center mx-auto bg-light">
+            <div class="col-12 col-md-6 col-lg-7 align-items-md-center align-items-lg-end text-md-center text-lg-start">
+                <h2 class="text-dark">A few words from our chief</h2>
+                <h3 class="text-black-50 fs-5">If you know how to work, there will be no shortage of food.
+                    By harnessing will power and skill, we can create a digital world.</h3>
+                <button class="btn btn-info text-white py-2 mt-4 mb-4">See More</button>
+            </div>
+            <div class="col-12 col-md-6 col-lg-5 align-items-md-center align-items-lg-end text-md-center">
+                <img class="img-fluid" src="images/working.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- explore Learning institute end -->
 
     <!-- Register Now  -->
     <section>
@@ -190,12 +204,10 @@
             <div
                 class="col-12 col-md-12 col-lg-10 align-items-md-center align-items-lg-end text-md-center text-lg-start">
                 <h2 class="text-white">Ready To Join</h2>
-                <p class="text-white">It is a long established fact that a reader will be <br>
-                    distracted by the readable content of a page when
-                    looking at its layout.</p>
+                <p class="text-white">Enroll now to join our course. Time is very limited.</p>
             </div>
             <div class="col-12 col-md-12 col-lg-2 align-items-md-center align-items-lg-end text-md-center">
-                <button class="btn bg-white btn-outline-info rounded-1 p-2btn btn-primary" data-bs-toggle="modal"
+                <button class="btn bg-white btn-outline-info rounded-1 p-2 btn btn-primary" data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop">Register Now
                 </button>
                 <!-- Modal -->
@@ -224,14 +236,51 @@
     </section>
     <!-- End This Sectioon -->
 
+    <!-- Successfull Students  -->
+    <section class="container">
+        <div class="container text-center" id="Success">
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <div class="p-3 border bg-light rounded-2">
+                        <img class="img-fluid" src="images/student/student-1.png" alt="">
+                        <h4 class="mt-4">Manush Malhotra</h4>
+                        <small>Web Developer</small>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <div class="p-3 border bg-light rounded-2">
+                        <img class="img-fluid" src="images/student/student-2.png" alt="">
+                        <h4 class="mt-4">Mayabini Sharkar</h4>
+                        <small>Wordpress Theme Developer</small>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <div class="p-3 border bg-light rounded-2">
+                        <img class="img-fluid" src="images/student/student-3.png" alt="">
+                        <h4 class="mt-4">Montu Miah</h4>
+                        <small>UI/UX Designer</small>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <div class="p-3 border bg-light rounded-2">
+                        <img class="img-fluid" src="images/student/student-4.png" alt="">
+                        <h4 class="mt-4">Otila</h4>
+                        <small>Developer</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Successfull Students end -->
+
 
     <!-- Question section  -->
     <section class="container">
         <div class="text-center my-5">
             <h2>Frequently Asked Questions</h2>
-            <p>It is a long established fact that a reader will be distracted <br> by the readable content of a page
-                when
-                looking at its layout.</p>
+            <p>What questions do you have as a beginner?</p>
         </div>
         <div class="accordion my-5" id="accordionExample">
             <div class="accordion-item">
@@ -305,17 +354,20 @@
 
 
     <!-- Footer Start  -->
-    <footer class="container-fluid bg-dark p-5">
+    <footer class="container-fluid bg-dark p-5" id="footer">
         <div class="container align-items-center text-center">
-            <h2 class="text-white">Pro Edu</h2>
+            <h2 class="text-white">Auth Lab</h2>
             <small class="text-white-50">Office 41, JalalaBad, Sylhet,
                 Bangladesh</small><br>
             <small class="text-white-50">Privacy Ploicy | Terms of use</small>
             <div class="social-media py-3">
-                <a href=""><i class="fa-brands fa-instagram rounded-5 text-white me-2 "></i></a>
-                <a href=""><i class="fa-brands fa-facebook rounded-5 text-white me-2"></i></a>
+                <a href="https://www.instagram.com/sayedsafi2000/" target="_blank"><i
+                        class="fa-brands fa-instagram rounded-5 text-white me-2 "></i></a>
+                <a href="https://www.facebook.com/safiuddin2000/" target="_blank"><i
+                        class="fa-brands fa-facebook rounded-5 text-white me-2"></i></a>
                 <a href=""><i class="fa-brands fa-twitter rounded-5 text-white me-2"></i></a>
-                <a href=""><i class="fa-brands fa-youtube rounded-5 text-white me-2"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i
+                        class="fa-brands fa-youtube rounded-5 text-white me-2"></i></a>
             </div>
         </div>
     </footer>
